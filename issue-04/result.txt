@@ -1,0 +1,4 @@
+$ python -m pytest test_issue-04.py
+
+
+
