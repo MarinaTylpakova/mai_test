@@ -34,6 +34,8 @@ def encode(message: str) -> str:
     '-- .- ..'
     >>> encode('SOS')
     '... --- ...'
+    >>> encode('ABCD') # doctest: +ELLIPSIS
+    '.- ... -..'
     >>> encode(2)
     Traceback (most recent call last):
     ...
