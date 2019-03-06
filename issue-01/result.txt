@@ -11,6 +11,11 @@ Expecting:
     '... --- ...'
 ok
 Trying:
+    encode('ABCD') # doctest: +ELLIPSIS
+Expecting:
+    '.- ... -..'
+ok
+Trying:
     encode(2)
 Expecting:
     Traceback (most recent call last):
@@ -20,8 +25,8 @@ ok
 1 items had no tests:
     issue-01
 1 items passed all tests:
-   3 tests in issue-01.encode
-3 tests in 2 items.
-3 passed and 0 failed.
+   4 tests in issue-01.encode
+4 tests in 2 items.
+4 passed and 0 failed.
 Test passed.
 
